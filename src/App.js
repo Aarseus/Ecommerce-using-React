@@ -1,12 +1,12 @@
-import logo from './logo.svg';
+
 import './App.css';
-import Second from './components/Second';
+import MyRoutes from './MyRoutes';
 
 function App() {
   return (
    <>
-   <Second title='hi'/>
-   </>
+    <MyRoutes/>
+  </>
   );
 }
 

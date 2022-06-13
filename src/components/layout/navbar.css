@@ -1,0 +1,8 @@
+.custom-background{
+    /* background-color: #7fffd4; */
+    background-image: linear-gradient(to right,#ffffff 10%, #97d5f0)
+}
+.btn:hover{
+    border: 2px solid white;
+
+}
