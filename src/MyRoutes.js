@@ -4,6 +4,7 @@ import About from "./components/Pages/About";
 import Blogs from "./components/Pages/Blogs";
 import Cart from "./components/Pages/Cart";
 import Contact from "./components/Pages/Contact";
+import Counter from "./components/Pages/Counter";
 import Deals from "./components/Pages/Deals";
 import Home from "./components/Pages/Home";
 import Materialdemo from "./components/Pages/Materialdemo";
@@ -20,13 +21,19 @@ const MyRoutes = () => {
         <Route path="/signin" element={<Signin/>}/>
       <Route path="/register" element={<Signup/>}/>
       <Route path="/cart" element={<Cart/>}/> 
-      <Route path="/deals" element={<Deals/>}/>
-<Route path="/services" element={<Services/>}/>
-<Route path="/blogs" element={<Blogs/>}/>
-      <Route path="/contact" element={<Contact/>}/>
+   
       
       {/* material pages */}
       <Route path="/mui" element={<Materialdemo/>}/>
+      <Route path="/deals" element={<Deals/>}/>
+      <Route path="/services" element={<Services/>}/>
+      <Route path="/blogs" element={<Blogs/>}/>
+      <Route path="/contact" element={<Contact/>}/>
+
+
+
+      {/* hooks */}
+      <Route path="/counter" element={<Counter/>}/>
       </Routes>
     </BrowserRouter>
   );
