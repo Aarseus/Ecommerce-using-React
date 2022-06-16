@@ -5,6 +5,7 @@ import Blogs from "./components/Pages/Blogs";
 import Cart from "./components/Pages/Cart";
 import Contact from "./components/Pages/Contact";
 import Counter from "./components/Pages/Counter";
+import DataFetch from "./components/Pages/DataFetch";
 import Deals from "./components/Pages/Deals";
 import Home from "./components/Pages/Home";
 import Materialdemo from "./components/Pages/Materialdemo";
@@ -34,6 +35,10 @@ const MyRoutes = () => {
 
       {/* hooks */}
       <Route path="/counter" element={<Counter/>}/>
+
+
+      {/* datafetch  */}
+      <Route path="/fetchdata" element={<DataFetch/>}/>
       </Routes>
     </BrowserRouter>
   );
