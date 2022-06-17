@@ -7,6 +7,7 @@ import Contact from "./components/Pages/Contact";
 import Counter from "./components/Pages/Counter";
 import DataFetch from "./components/Pages/DataFetch";
 import Deals from "./components/Pages/Deals";
+import Display from "./components/Pages/Display";
 import Home from "./components/Pages/Home";
 import Materialdemo from "./components/Pages/Materialdemo";
 import Services from "./components/Pages/Services";
@@ -39,6 +40,8 @@ const MyRoutes = () => {
 
       {/* datafetch  */}
       <Route path="/fetchdata" element={<DataFetch/>}/>
+      
+      <Route path="/display" element={<Display/>}/>
       </Routes>
     </BrowserRouter>
   );
